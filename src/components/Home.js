@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBrain, faShieldAlt, faUserFriends, faComments } from '@fortawesome/free-solid-svg-icons';
-import heroImage from '../assets/ai1.png'; // Tambahkan ini
+import heroImage from '../assets/dasboard.png'; // Tambahkan ini
 
 const Home = () => {
   const mainTitleRef = useRef(null);
