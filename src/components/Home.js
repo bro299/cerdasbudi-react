@@ -49,7 +49,7 @@ const Home = () => {
                 ref={heroImageRef}
                 src={heroImage} // Gunakan variabel yang diimpor
                 alt="AI Assistant"
-                className="relative z-10 rounded-lg shadow-2xl opacity-0"
+                className="relative z-10 rounded-lg opacity-0"
               />
             </div>
           </div>
