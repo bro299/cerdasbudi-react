@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import UserInfoForm from './components/UserInfoForm';
 import ChatInterface from './components/ChatInterface';
 import Testimonials from './components/Testimonials';
+import SplashCursor from './components/SplashCursor';
 
 const AppContent = () => {
   const [userInfo, setUserInfo] = useState(null);
@@ -30,6 +31,7 @@ const AppContent = () => {
         <Route path="/" element={
           <>
             <Home />
+           <SplashCursor />
             <Background />
             <Testimonials/>
             <Features />
